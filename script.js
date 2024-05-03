@@ -15,6 +15,8 @@ let explore = document.querySelector(".explore");
 
 let navBar = document.querySelector (".navbar");
 
+let logo = document.querySelector(".logo");
+
 
 
 
@@ -47,4 +49,10 @@ exploreNewBatch.addEventListener ("click",()=>{
 exploreNew.addEventListener ("click",()=>{
     mainContent1.style.display = "none";
     explore.style.display = "block";
+});
+
+
+logo.addEventListener("click",()=>{
+    console.log("hello");
+    mainContent1.style.display = "block";
 })
