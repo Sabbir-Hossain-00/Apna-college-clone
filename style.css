@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-    box-sizing: border-box;
 }
 .navbar{
     background-color: #fff;
@@ -26,6 +25,7 @@
     background-size: contain;
     background-repeat: no-repeat;
     position: relative;
+    cursor: pointer;
 }
 .b1{
     background-color: #6674cc;
@@ -125,7 +125,6 @@
 .photo{
     width: 420.5px;
     height: 420.5px;
-    /* border-top: 1px solid black; */
     background-image: url(https://lwfiles.mycourse.app/62a6cd5e1e9e2fbf212d608d-public/fcc79fff0a31cd4c6290d3d3ada29edf.png);
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
@@ -195,7 +194,7 @@
 .d2 p{
     font-size: 16px;
     position: relative;
-    top: -10px;
+    margin-top: 5px;
 }
 
 
@@ -210,6 +209,7 @@
     margin-left: 650px;
     margin-right: 650px;
     text-align: center;
+    margin-top: 20px;
 }
 .b4{
     width: 150px;
@@ -254,7 +254,7 @@
 .photo2{
     width: 1120px;
     height: 614px;
-    background-image: url(shraddha_apu.jpeg);
+    background-image: url(https://lwfiles.mycourse.app/62a6cd5e1e9e2fbf212d608d-public/6332598ffef6dfd662b7b03e2f51dffd.jpeg);
     background-size: cover;
     margin-top: 40px;
     margin-left: 400px;
@@ -295,7 +295,7 @@
     font-weight: bold;
     color: black;
     position: relative;
-    top: -10px;
+    margin-top: 5px;
 }
 
 .sign-up{
