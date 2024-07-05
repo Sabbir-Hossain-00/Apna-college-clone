@@ -223,7 +223,7 @@ html,body{
 .explore-content-2{
     width: 100%;
     height: 500px;
-    background-color:#f8f8fd;
+    background-color:#fff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -292,7 +292,6 @@ html,body{
     display: flex;
     justify-content: center;
     align-items: center;
-    border-top: 1px solid rgb(2, 2, 2);
 }
 
 .content-7-main{
